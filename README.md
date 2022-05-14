@@ -16,10 +16,14 @@
         git clone시 커맨드라인에서 password를 작성하라고 할 때, token을 입력하시면 됩니다!  
         토큰 만드는 법 >> https://hoohaha.tistory.com/37
 2. create a new branch and change to use new branch
-    - `git checkout {branch name}`
-    - ex) `git checkout 박규연`
+    - `git branch {branch name}`
+    - ex) `git branch 박규연`
     - if you want to delete a branch? `git branch -d {branch name}`
-3. check which branch is currently in use now
+3. check branch list
+    - `git branch`
+3. change to use new branch
+    - `git checkout {branch name}`
+4. check which branch is currently in use now
     - `git branch`
 
 협업 시 전반적으로 필요한 깃허브 명령어 참고 >> https://victorydntmd.tistory.com/91  
